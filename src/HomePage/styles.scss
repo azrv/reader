@@ -1,0 +1,23 @@
+$main-color: #393E41;
+$font-color: #eee;
+
+main {
+  color: $font-color;
+  
+  background-color: $main-color;
+}
+
+header {
+  max-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

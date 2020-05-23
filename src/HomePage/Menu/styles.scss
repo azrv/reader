@@ -1,0 +1,17 @@
+ul {
+  padding: 60px 40px;
+  list-style: none;
+  color: #393E41;
+
+  li {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    cursor: pointer;
+  }
+
+  img {
+    margin-right: 14px;
+  }
+}

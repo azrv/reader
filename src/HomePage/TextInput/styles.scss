@@ -1,0 +1,23 @@
+.textInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.textarea {
+  border-radius: 4px;
+  border-color: #ddd;
+  resize: none;
+  outline: none;
+  width: 250px;
+}
+
+.submitButtonContainer {
+  padding: 14px 40px;
+}
+
+.submitButton {
+  width: 100%;
+} 

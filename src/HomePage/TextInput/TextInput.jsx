@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 
+import './styles.scss'
+
 const TextInput = ({
   setContent,
 }) => {
@@ -10,15 +12,21 @@ const TextInput = ({
   };
 
   return (
-    <>
+    <div className="textInputContainer">
       <textarea
+        className="textarea"
         ref={ref}
-        rows="2"
+        rows="5"
       />
-      <button onClick={onSubmit} >
-        submit
-      </button>
-    </>
+      <div className="submitButtonContainer">
+        <button
+          className="submitButton"
+          onClick={onSubmit} 
+        >
+          submit
+        </button>
+      </div>
+    </div>
   )
 };
 
